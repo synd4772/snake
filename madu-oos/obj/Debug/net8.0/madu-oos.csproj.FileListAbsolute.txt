@@ -1,0 +1,14 @@
+C:\Users\opilane\source\repos\madu-oos\bin\Debug\net8.0\madu-oos.exe
+C:\Users\opilane\source\repos\madu-oos\bin\Debug\net8.0\madu-oos.deps.json
+C:\Users\opilane\source\repos\madu-oos\bin\Debug\net8.0\madu-oos.runtimeconfig.json
+C:\Users\opilane\source\repos\madu-oos\bin\Debug\net8.0\madu-oos.dll
+C:\Users\opilane\source\repos\madu-oos\bin\Debug\net8.0\madu-oos.pdb
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\madu-oos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\madu-oos.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\madu-oos.AssemblyInfo.cs
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\madu-oos.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\madu-oos.dll
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\refint\madu-oos.dll
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\madu-oos.pdb
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\madu-oos.genruntimeconfig.cache
+C:\Users\opilane\source\repos\madu-oos\obj\Debug\net8.0\ref\madu-oos.dll
