@@ -7,24 +7,22 @@ using System.Threading.Tasks;
 
 namespace madu_oos
 {
-    class HorizontalLine: Figure
+    public class HorizontalLine : Figure
     {
-        List<Point> pList;
 
         public HorizontalLine(int xLeft, int xRight, int y, char sym)
         {
             pList = new List<Point>();
             for (int x = xLeft; x <= xRight; x++)
             {
+
                 Point p = new Point(x, y, sym);
                 pList.Add(p);
+                //Console.WriteLine(x);
             }
-        }
-        public void Drow()
-        {
             foreach (Point p in pList)
             {
-                p.Draw();
+                //Console.WriteLine($"point horizontal | x = {p.x} , y = {p.y}");
             }
         }
     }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\madu-oos\\madu-oos.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\madu-oos.csproj",
       "projectName": "madu-oos",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\madu-oos\\madu-oos.csproj",
+      "projectPath": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\madu-oos.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\madu-oos\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
