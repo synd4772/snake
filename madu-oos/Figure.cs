@@ -10,7 +10,7 @@ namespace madu_oos
     public class Figure
     {
         protected List<Point> pList = new List<Point>();
-        public void Drow()
+        public virtual void Draw()
         {
             foreach (Point p in pList)
             {
