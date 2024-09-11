@@ -7,15 +7,15 @@ namespace madu_oos
     {
         static public void Main(string[] args)
         {
-
-            Walls walls = new Walls(80, 25);
+            while (true) { 
+            Walls walls = new Walls(75, 25);
             walls.Draw();
 
             Point p = new Point(4, 5, '*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Draw();
 
-            FoodCreator foodCreator = new FoodCreator(80, 25, '$');
+            FoodCreator foodCreator = new FoodCreator(75, 25, '$');
             Point food = foodCreator.CreateFood();
             food.Draw();
 
@@ -23,7 +23,9 @@ namespace madu_oos
             {
                 if (walls.IsHit(snake) || snake.IsHitTail())
                 {
-                    break;
+                        Console.Clear();
+                        break;
+                        
                 }
 
                 if (snake.Eat(food))
@@ -35,12 +37,13 @@ namespace madu_oos
                 {
                     snake.Move();
                 }
-                Thread.Sleep(100);
+                Thread.Sleep(5);
                 if (Console.KeyAvailable)
                 {
                     ConsoleKeyInfo key = Console.ReadKey();
                     snake.HandleKey(key.Key);
                 }
+            }
             }
         }
         static void Draw(Figure figure)
