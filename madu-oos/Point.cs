@@ -57,7 +57,7 @@ namespace madu_oos
             return x + ", " + y + ", " + sym;
         }
 
-        public bool isHit(Point p)
+        public bool IsHit(Point p)
         {
             return p.x == this.x && p.y == this.y;
         }
