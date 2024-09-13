@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\users.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:users.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\usersmanagment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:usersmanagment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,24 +23,40 @@
       "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:verticalline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\walls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:walls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\horizontalline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:horizontalline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\foodcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:foodcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\walls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:walls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\ui\\speed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:ui\\speed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\ui\\idraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:ui\\idraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\ui\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:ui\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\foodcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:foodcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|c:\\users\\opilane\\source\\repos\\snake\\madu-oos\\horizontalline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B822AF5D-605B-4DE6-B906-2CC488E07282}|madu-oos.csproj|solutionrelative:horizontalline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +74,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "UsersManagment.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UsersManagment.cs",
+              "RelativeDocumentMoniker": "UsersManagment.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UsersManagment.cs",
+              "RelativeToolTip": "UsersManagment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:36:53.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "users.txt",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\users.txt",
+              "RelativeDocumentMoniker": "users.txt",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\users.txt",
+              "RelativeToolTip": "users.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-13T10:30:12.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDraw.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UI\\IDraw.cs",
+              "RelativeDocumentMoniker": "UI\\IDraw.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UI\\IDraw.cs",
+              "RelativeToolTip": "UI\\IDraw.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:21:27.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Speed.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UI\\Speed.cs",
+              "RelativeDocumentMoniker": "UI\\Speed.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UI\\Speed.cs",
+              "RelativeToolTip": "UI\\Speed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T10:10:56.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Score.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UI\\Score.cs",
+              "RelativeDocumentMoniker": "UI\\Score.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\UI\\Score.cs",
+              "RelativeToolTip": "UI\\Score.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T09:57:39.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Walls.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Walls.cs",
               "RelativeDocumentMoniker": "Walls.cs",
               "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Walls.cs",
               "RelativeToolTip": "Walls.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvx8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T07:30:37.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VerticalLine.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\VerticalLine.cs",
               "RelativeDocumentMoniker": "VerticalLine.cs",
@@ -80,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Snake.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Snake.cs",
               "RelativeDocumentMoniker": "Snake.cs",
@@ -93,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Point.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Point.cs",
               "RelativeDocumentMoniker": "Point.cs",
@@ -106,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "HorizontalLine.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\HorizontalLine.cs",
               "RelativeDocumentMoniker": "HorizontalLine.cs",
@@ -114,12 +199,11 @@
               "RelativeToolTip": "HorizontalLine.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T07:17:25.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T07:17:25.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "FoodCreator.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\FoodCreator.cs",
               "RelativeDocumentMoniker": "FoodCreator.cs",
@@ -132,20 +216,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Figure.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Figure.cs",
               "RelativeDocumentMoniker": "Figure.cs",
               "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Figure.cs",
               "RelativeToolTip": "Figure.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T07:17:17.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Direction.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Direction.cs",
               "RelativeDocumentMoniker": "Direction.cs",
@@ -162,9 +246,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCcAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T07:17:00.322Z",
               "EditorCaption": ""

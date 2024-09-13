@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("madu-oos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a083d81c2d5a5b34836b0578c6aed3715bc6c195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eddc55e0ba5a25e1973ba5bd63e9c255221689e")]
 [assembly: System.Reflection.AssemblyProductAttribute("madu-oos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("madu-oos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

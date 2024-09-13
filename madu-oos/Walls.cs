@@ -9,9 +9,13 @@ namespace madu_oos
     public class Walls
     {
         List<Figure> wallList;
+        int MapWidth, MapHeight;
 
         public Walls(int mapWidth, int mapHeight)
         {
+            this.MapWidth = mapWidth;
+            this.MapHeight = mapHeight;
+
             wallList = new List<Figure>();
 
             HorizontalLine upLine = new HorizontalLine(0, mapWidth - 2, 0, '+');
