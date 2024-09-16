@@ -21,11 +21,21 @@ namespace madu_oos
             List<IDraw> UIComponents = new List<IDraw>() { score , speed };
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             UsersManagment um = new UsersManagment(Path.Combine(docPath, "users.txt"));
-            
 
+            Console.WriteLine("What is your name ?");
+            Name = Console.ReadLine();
+            int userIndex = um.HasUser(Name);
+            if (userIndex != -1)
+            {
+                score.BestScore = int.Parse(um.currentLines[userIndex + 1]);
+            }
+            else
+            {
+                um.AddUser(Name, score.BestScore);
+            }
+    
+            
             while (true) {
-                Console.WriteLine("What is your name ?");
-                Name = Console.ReadLine();
                 Console.Clear();
                 
 
@@ -55,6 +65,8 @@ namespace madu_oos
                         {
                             component.Reset();
                         }
+                        um.UpdateUser(Name, score.BestScore);
+
 
                         break;
                         

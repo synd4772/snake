@@ -9,7 +9,7 @@ namespace madu_oos.UI
     public class Score : IDraw
     {
         public int CurrentScore { get; set; }
-        public int BestScore { get; private set; }
+        public int BestScore { get; set; }
         int[] position;
 
         public Score(int x, int y)
