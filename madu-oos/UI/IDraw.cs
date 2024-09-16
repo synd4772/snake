@@ -11,5 +11,7 @@ namespace madu_oos.UI
         public void Draw();
         public void Update();
         public void Reset();
+
+        public void ChangeFormat(Walls walls);
     }
 }

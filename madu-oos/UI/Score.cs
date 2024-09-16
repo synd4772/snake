@@ -10,7 +10,7 @@ namespace madu_oos.UI
     {
         public int CurrentScore { get; set; }
         public int BestScore { get; set; }
-        int[] position;
+        public int[] position;
 
         public Score(int x, int y)
         {
@@ -37,8 +37,16 @@ namespace madu_oos.UI
             if (BestScore < CurrentScore)
             {
                 BestScore = CurrentScore;
-                CurrentScore = 0;
+                
             }
+            CurrentScore = 0;
+        }
+
+
+        public void ChangeFormat(Walls walls)
+        {
+            this.position[0] = walls.MapWidth + 1;
+            this.position[1] = 0;
         }
     }
 }

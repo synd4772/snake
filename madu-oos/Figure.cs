@@ -9,7 +9,7 @@ namespace madu_oos
 {
     public class Figure
     {
-        protected List<Point> pList = new List<Point>();
+        public List<Point> pList = new List<Point>();
         public virtual void Draw()
         {
             foreach (Point p in pList)

@@ -9,7 +9,7 @@ namespace madu_oos
     public class Walls
     {
         List<Figure> wallList;
-        int MapWidth, MapHeight;
+        public int MapWidth, MapHeight;
 
         public Walls(int mapWidth, int mapHeight)
         {

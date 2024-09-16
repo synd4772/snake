@@ -37,5 +37,11 @@ namespace madu_oos.UI
 
             }
         }
+
+        public void ChangeFormat(Walls walls)
+        {
+            this.position[0] = walls.MapWidth + 1;
+            this.position[1] = 2;
+        }
     }
 }
