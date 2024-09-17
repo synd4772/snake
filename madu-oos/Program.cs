@@ -14,6 +14,8 @@ namespace madu_oos
     {
         static public void Main(string[] args)
         {
+            Console.SetBufferSize(1700,1700);
+            Console.SetWindowSize(200,200);
             string Name;
             int defaultWallWidth = 75;
             int defaultWallHeight = 25;
@@ -73,7 +75,6 @@ namespace madu_oos
                     component.Draw();
                 }
 
-
                 while (true)
                 {
                     if (mapSettings.walls.IsHit(snake) || snake.IsHitTail())
@@ -97,7 +98,6 @@ namespace madu_oos
                             component.Update();
                             component.Draw();
                         }
-
                     }
                     else
                     {

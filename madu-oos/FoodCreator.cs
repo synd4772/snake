@@ -12,9 +12,11 @@ namespace madu_oos
         char sym;
         Snake snake { get; set; }
 
-        Random random = new Random();
+        Random random;
         public FoodCreator(int mapWidth, int mapHeight, char sym, Snake snake)
         {
+            random = new Random();
+
             this.mapWidth = mapWidth;
             this.mapHeight = mapHeight;
             this.sym = sym;
@@ -24,19 +26,24 @@ namespace madu_oos
         {
             while (true)
             {
+                bool status = true;
+                int x = random.Next(2, mapWidth - 2);
+                int y = random.Next(2, mapHeight - 2);
                 foreach (Point p in snake.pList)
                 {
-                    int x = random.Next(2, mapWidth - 2);
-                    int y = random.Next(2, mapHeight - 2);
-                    if (p.y == y && p.y == y)
+                    if (p.x == x & p.y == y)
                     {
-                        continue;
+                        status = false;
+                        break;
                     }
-                    else
-                    {
-                        return new Point(x, y, sym);
-                    }
+
                 }
+                if (!status)
+                {
+                    continue;
+                }
+                return new Point(x, y, sym);
+
             }
         }
     }

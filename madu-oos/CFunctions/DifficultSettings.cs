@@ -38,7 +38,7 @@ namespace madu_oos.CFunctions
         {
             try
             {
-                int vastus = 1;/*int.Parse(Console.ReadLine());*/
+                int vastus = int.Parse(Console.ReadLine());
 
                 switch (vastus)
                 {

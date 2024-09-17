@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\madu-oos.csproj": {}
+    "C:\\Projects\\c#\\snake\\madu-oos\\madu-oos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\madu-oos.csproj": {
+    "C:\\Projects\\c#\\snake\\madu-oos\\madu-oos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\madu-oos.csproj",
+        "projectUniqueName": "C:\\Projects\\c#\\snake\\madu-oos\\madu-oos.csproj",
         "projectName": "madu-oos",
-        "projectPath": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\madu-oos.csproj",
-        "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\source\\repos\\snake\\madu-oos\\obj\\",
+        "projectPath": "C:\\Projects\\c#\\snake\\madu-oos\\madu-oos.csproj",
+        "packagesPath": "C:\\Users\\alexm\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\c#\\snake\\madu-oos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Visual Studio IDE\\SDK\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
