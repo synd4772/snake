@@ -10,16 +10,18 @@ namespace madu_oos
     {
         List<Figure> wallList;
         public int MapWidth, MapHeight;
+        public ConsoleColor color;
 
-        public Walls(int mapWidth, int mapHeight)
+        public Walls(int mapWidth, int mapHeight, ConsoleColor color)
         {
+            this.color = color;
             this.MapWidth = mapWidth;
             this.MapHeight = mapHeight;
 
             wallList = new List<Figure>();
 
-            HorizontalLine upLine = new HorizontalLine(0, mapWidth - 2, 0, '+');
-            HorizontalLine downLine = new HorizontalLine(0, mapWidth - 2, mapHeight - 1, '+');
+            HorizontalLine upLine = new HorizontalLine(0, mapWidth - 2, 0, '+', color);
+            HorizontalLine downLine = new HorizontalLine(0, mapWidth - 2, mapHeight - 1, '+', color);
             VerticalLine leftLine = new VerticalLine(0, mapHeight - 1, 0, '+');
             VerticalLine rightLine = new VerticalLine(0, mapHeight - 1, mapWidth - 2, '+');
 
@@ -46,7 +48,7 @@ namespace madu_oos
         {
             foreach (var wall in wallList)
             {
-                wall.Draw();
+                wall.Draw(this.color);
             }
         }
 

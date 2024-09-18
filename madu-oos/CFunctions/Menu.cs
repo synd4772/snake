@@ -9,15 +9,36 @@ namespace madu_oos.CFunctions
     public class Menu: IConsole
     {
         public int? vastus;
-        public Menu() {
+        Settings settings;
+        Leaderstats ls;
+        public Menu(Settings settings, Leaderstats ls) {
+            this.settings = settings;
+            this.ls = ls;
             while (true)
             {
+                Console.Clear();
                 this.ShowChoice();
                 vastus = this.GetChoice();
 
                 if (vastus == null)
                 {
                     continue;
+                }
+                switch (vastus)
+                {
+                    case 1:
+                        Console.Clear();
+                        break;
+                    case 2:
+                        Console.Clear();
+                        settings.Run();
+                        continue;
+                    case 3:
+                        Console.Clear();
+                        ls.ShowBestUsers();
+                        Console.ReadKey();
+                        continue;
+                    default:continue;
                 }
                 break;
             }

@@ -8,9 +8,12 @@ namespace madu_oos
 {
     public class Point
     {
-        public int y; public int x; public char sym;
+        public int y; public int x; public char sym; public ConsoleColor color;
 
-        public Point() { }
+        public Point(int x, int y, char sym, ConsoleColor color)
+        {
+            this.x = x; this.y = y; this.sym = sym; this.color = color;
+        }
         public Point(int x, int y, char sym)
         {
             this.x = x; this.y = y; this.sym = sym;
@@ -49,8 +52,18 @@ namespace madu_oos
         }
         public void Draw()
         {
+            Console.ForegroundColor = this.color;
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
+            Console.ForegroundColor = ConsoleColor.Gray;
+        }
+
+        public void Draw(ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            Console.SetCursorPosition(x, y);
+            Console.Write(sym);
+            Console.ForegroundColor = ConsoleColor.Gray;
         }
         public override string ToString()
         {

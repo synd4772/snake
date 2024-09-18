@@ -12,9 +12,11 @@ namespace madu_oos.CFunctions
         public int? Vastus;
         public int WallWidth, WallHeight;
         public Walls walls;
+        public ConsoleColor color;
 
-        public MapSettings(int wallWidth, int wallHeight) 
-        { 
+        public MapSettings(int wallWidth, int wallHeight, ConsoleColor color) 
+        {
+            this.color = color;
             this.WallWidth = wallWidth;
             this.WallHeight = wallHeight;
             while (true)
@@ -48,16 +50,16 @@ namespace madu_oos.CFunctions
                     case 1:
                         this.WallWidth = this.WallWidth / 2;
                         this.WallHeight = this.WallHeight / 2;
-                        walls = new Walls(this.WallWidth, this.WallHeight);
+                        walls = new Walls(this.WallWidth, this.WallHeight, this.color);
                         return 1;
                     case 2:
-                        walls = new Walls(this.WallWidth, this.WallHeight);
+                        walls = new Walls(this.WallWidth, this.WallHeight, this.color);
                         return 2;
                     case 3:
                         this.WallHeight = (int)Math.Round((float)this.WallWidth * 1.3f);
                         this.WallHeight = (int)Math.Round((float)this.WallHeight * 1.3f);
 
-                        walls = new Walls(this.WallWidth, this.WallHeight);
+                        walls = new Walls(this.WallWidth, this.WallHeight, this.color);
                         return 3;
                     default:
                         return null;

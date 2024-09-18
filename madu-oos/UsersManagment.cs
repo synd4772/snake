@@ -22,13 +22,38 @@ namespace madu_oos
         }
         public void UpdateFile()
         {
-                using(StreamWriter outputFile = new StreamWriter(this.path))
+            using(StreamWriter outputFile = new StreamWriter(this.path))
+            {
+                int index = -1;
+                foreach (string line in this.currentLines)
                 {
-                    foreach (string line in this.currentLines)
+                    index++;
+                    if (index == this.currentLines.Count - 1)
                     {
-                        outputFile.WriteLine(line.Trim());
+                        outputFile.Write(line.Trim());
+                    }
+                    else
+                    {
+                        outputFile.Write($"{line.Trim()}\n");
                     }
                 }
+            }
+        }
+        public List<Dictionary<string, int>> GetAllUsers()
+        {
+            this.UpdateFile();
+            this.UpdateList();
+            List<Dictionary<string, int>> users = new List<Dictionary<string, int>>();
+            if (this.currentLines.Count > 1)
+            {
+                for (int i = 0; i <= this.currentLines.Count; i = i + 2)
+                {
+                    if (this.currentLines.Count <= i) { break; }
+                    users.Add(new Dictionary<string, int>() { { this.currentLines[i], int.Parse(this.currentLines[i + 1]) } });
+                }
+            }
+
+            return users;
         }
 
         public void UpdateList()
@@ -55,8 +80,9 @@ namespace madu_oos
             {
                 using(StreamWriter outputFile = new StreamWriter(this.path, true))
                 {
-                    outputFile.WriteLine(username);
-                    outputFile.WriteLine(score);
+                    
+                    string sym = (this.currentLines.Count != 1) ? "\n" : "";
+                    outputFile.Write($"{sym}{username}\n{score}");
                 }
                 this.UpdateList();
             }

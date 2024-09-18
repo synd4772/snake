@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,11 +11,13 @@ namespace madu_oos
     {
         int mapWidth, mapHeight;
         char sym;
+        public ConsoleColor color;
         Snake snake { get; set; }
 
         Random random;
-        public FoodCreator(int mapWidth, int mapHeight, char sym, Snake snake)
+        public FoodCreator(int mapWidth, int mapHeight, char sym, Snake snake, ConsoleColor color)
         {
+            this.color = color;
             random = new Random();
 
             this.mapWidth = mapWidth;
@@ -42,7 +45,7 @@ namespace madu_oos
                 {
                     continue;
                 }
-                return new Point(x, y, sym);
+                return new Point(x, y, sym, this.color);
 
             }
         }

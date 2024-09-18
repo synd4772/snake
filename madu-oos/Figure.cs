@@ -17,6 +17,13 @@ namespace madu_oos
                 p.Draw();
             }
         }
+        public virtual void Draw(ConsoleColor color)
+        {
+            foreach (Point p in pList)
+            {
+                p.Draw(color);
+            }
+        }
 
         internal bool IsHit(Figure figure)
         {

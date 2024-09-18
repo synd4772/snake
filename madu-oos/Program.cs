@@ -6,7 +6,6 @@ using System.Runtime.InteropServices;
 using System.Xml.Linq;
 using madu_oos.CFunctions;
 using madu_oos.UI;
-using static System.Formats.Asn1.AsnWriter;
 
 namespace madu_oos
 {
@@ -14,8 +13,6 @@ namespace madu_oos
     {
         static public void Main(string[] args)
         {
-            Console.SetBufferSize(1700,1700);
-            Console.SetWindowSize(200,200);
             string Name;
             int defaultWallWidth = 75;
             int defaultWallHeight = 25;
@@ -30,6 +27,10 @@ namespace madu_oos
 
             string docPath = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
             UsersManagment um = new UsersManagment(Path.Combine(docPath, "users.txt"));
+            Leaderstats ls = new Leaderstats(um);
+
+            Settings settings = new Settings();
+            Menu menu = new Menu(settings, ls);
 
             Console.WriteLine("What is your name ?");
             Name = Console.ReadLine();
@@ -42,30 +43,48 @@ namespace madu_oos
             {
                 um.AddUser(Name, score.BestScore);
             }
+            int wallWidth, wallHeight;
+
+            int askMapTime = 0;
+
+            MapSettings mapSettings;
+            DifficultSettings difficultSettings;
+
+            Console.Clear();
+
+            mapSettings = new MapSettings(defaultWallWidth, defaultWallHeight, settings.colorSettings["walls"]);
+            wallWidth = mapSettings.WallWidth;
+            wallHeight = mapSettings.WallHeight;
+
+            Console.Clear();
+
+            difficultSettings = new DifficultSettings(defaultMinusSpeed);
+            speed.minusMs = difficultSettings.MinusSpeed;
 
             while (true) {
 
                 Console.Clear();
+                if (askMapTime != 0 & settings.boolSettings["ask-map-settings-again"])
+                {
+                    Console.Clear();
+                    mapSettings = new MapSettings(defaultWallWidth, defaultWallHeight, settings.colorSettings["walls"]);
+                    wallWidth = mapSettings.WallWidth;
+                    wallHeight = mapSettings.WallHeight;
 
-                int wallWidth, wallHeight;
+                    Console.Clear();
 
-                MapSettings mapSettings = new MapSettings(defaultWallWidth, defaultWallHeight);
-                wallWidth = mapSettings.WallWidth;
-                wallHeight = mapSettings.WallHeight;
+                    difficultSettings = new DifficultSettings(defaultMinusSpeed);
+                    speed.minusMs = difficultSettings.MinusSpeed;
+                }
+                askMapTime++;
 
                 Console.Clear();
-
-                DifficultSettings difficultSettings = new DifficultSettings(defaultMinusSpeed);
-                speed.minusMs = difficultSettings.MinusSpeed;
-
-                Console.Clear();
-
                 mapSettings.walls.Draw();
 
                 Point p = new Point(4, 5, '*');
-                Snake snake = new Snake(p, 4, Direction.RIGHT);
+                Snake snake = new Snake(p, 4, Direction.RIGHT, settings.colorSettings["snake"]);
                 snake.Draw();
-                FoodCreator foodCreator = new FoodCreator(wallWidth, wallHeight, '$', snake);
+                FoodCreator foodCreator = new FoodCreator(wallWidth, wallHeight, '$', snake, settings.colorSettings["food"]);
                 Point food = foodCreator.CreateFood();
                 food.Draw();
 
@@ -80,11 +99,16 @@ namespace madu_oos
                     if (mapSettings.walls.IsHit(snake) || snake.IsHitTail())
                     {
                         Console.Clear();
-                        foreach (IDraw component in UIComponents)
-                        { 
-                            component.Reset();
+                        if (settings.boolSettings["cutscenes"])
+                        {
+                            Cutscenes.DeathCutscene(snake);
+
+                            foreach (IDraw component in UIComponents)
+                            {
+                                component.Reset();
+                            }
+                            um.UpdateUser(Name, score.BestScore);
                         }
-                        um.UpdateUser(Name, score.BestScore);
                         break;
                     }
 

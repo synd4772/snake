@@ -11,8 +11,10 @@ namespace madu_oos
     public class Snake : Figure
     {
         public Direction direction;
-        public Snake(Point tail, int lenght, Direction direction)
+        public ConsoleColor color;
+        public Snake(Point tail, int lenght, Direction direction, ConsoleColor color)
         {
+            this.color = color;
             this.direction = direction;
             pList = new List<Point>();
             for (int i = 0; i < lenght; i++)
@@ -21,6 +23,8 @@ namespace madu_oos
                 p.Move(i, direction);
                 pList.Add(p);
             }
+
+            this.color = color;
         }
         internal void Move()
         {
@@ -30,7 +34,7 @@ namespace madu_oos
             pList.Add(head);
 
             tail.Clear();
-            head.Draw();
+            head.Draw(this.color);
         }
 
         internal Point GetNextPoint()
